@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "9slA0EFooFBsnbkeEiuQuAO3c6VyaGIGO+sduXymVN6iTQMCq/j0Ioz4y59PVchF1+RzIGBWbLovACkGWiMoUQ==",
+  "dgSpecHash": "0PuSlt8K4uetJJYydODqom8xiUtMdYR7w7OnvYR26efEfzRiry0wTB2XsmUWyI9cIuY0aaXFQABw8AESlJ4lmw==",
   "success": true,
   "projectFilePath": "/Users/dante/Projects/web-app-test/web-app-test/web-app-test.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/dante/.nuget/packages/coverlet.msbuild/3.1.0/coverlet.msbuild.3.1.0.nupkg.sha512",
+    "/Users/dante/.nuget/packages/microsoft.codeanalysis.fxcopanalyzers/3.3.2/microsoft.codeanalysis.fxcopanalyzers.3.3.2.nupkg.sha512",
+    "/Users/dante/.nuget/packages/microsoft.codeanalysis.versioncheckanalyzer/3.3.2/microsoft.codeanalysis.versioncheckanalyzer.3.3.2.nupkg.sha512",
+    "/Users/dante/.nuget/packages/microsoft.codequality.analyzers/3.3.2/microsoft.codequality.analyzers.3.3.2.nupkg.sha512",
+    "/Users/dante/.nuget/packages/microsoft.netcore.analyzers/3.3.2/microsoft.netcore.analyzers.3.3.2.nupkg.sha512",
+    "/Users/dante/.nuget/packages/microsoft.netframework.analyzers/3.3.2/microsoft.netframework.analyzers.3.3.2.nupkg.sha512"
+  ],
   "logs": []
 }
