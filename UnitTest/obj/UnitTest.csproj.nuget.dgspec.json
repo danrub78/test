@@ -14,7 +14,7 @@
         "outputPath": "/Users/dante/Projects/web-app-test/UnitTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dante/.config/NuGet/NuGet.Config"
+          "/Users/dante/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -94,7 +94,7 @@
         "outputPath": "/Users/dante/Projects/web-app-test/web-app-test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dante/.config/NuGet/NuGet.Config"
+          "/Users/dante/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -123,10 +123,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.3.2, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.0.0, )"
             },
             "coverlet.msbuild": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

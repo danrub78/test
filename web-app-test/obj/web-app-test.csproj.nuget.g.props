@@ -7,7 +7,7 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/dante/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/dante/.nuget/packages/</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/Users/dante/.nuget/packages/" />
@@ -16,18 +16,14 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.testplatform.testhost/17.0.0/build/netcoreapp2.1/Microsoft.TestPlatform.TestHost.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testplatform.testhost/17.0.0/build/netcoreapp2.1/Microsoft.TestPlatform.TestHost.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.netframework.analyzers/3.3.2/build/Microsoft.NetFramework.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netframework.analyzers/3.3.2/build/Microsoft.NetFramework.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.netcore.analyzers/3.3.2/build/Microsoft.NetCore.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.analyzers/3.3.2/build/Microsoft.NetCore.Analyzers.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage/17.0.0/build/netstandard1.0/Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage/17.0.0/build/netstandard1.0/Microsoft.CodeCoverage.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/17.0.0/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/17.0.0/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codequality.analyzers/3.3.2/build/Microsoft.CodeQuality.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codequality.analyzers/3.3.2/build/Microsoft.CodeQuality.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.versioncheckanalyzer/3.3.2/build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.versioncheckanalyzer/3.3.2/build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.fxcopanalyzers/3.3.2/build/Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.fxcopanalyzers/3.3.2/build/Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
     <Import Project="$(NuGetPackageRoot)coverlet.msbuild/3.1.0/build/coverlet.msbuild.props" Condition="Exists('$(NuGetPackageRoot)coverlet.msbuild/3.1.0/build/coverlet.msbuild.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/Users/dante/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
     <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">/Users/dante/.nuget/packages/microsoft.netframework.analyzers/3.3.2</PkgMicrosoft_NetFramework_Analyzers>
     <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">/Users/dante/.nuget/packages/microsoft.netcore.analyzers/3.3.2</PkgMicrosoft_NetCore_Analyzers>
     <PkgMicrosoft_CodeQuality_Analyzers Condition=" '$(PkgMicrosoft_CodeQuality_Analyzers)' == '' ">/Users/dante/.nuget/packages/microsoft.codequality.analyzers/3.3.2</PkgMicrosoft_CodeQuality_Analyzers>

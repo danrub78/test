@@ -1667,9 +1667,6 @@
       "web-app-test/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Microsoft.NET.Test.Sdk": "17.0.0"
-        },
         "compile": {
           "bin/placeholder/web-app-test.dll": {}
         },
@@ -6149,7 +6146,7 @@
       "outputPath": "/Users/dante/Projects/web-app-test/UnitTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dante/.config/NuGet/NuGet.Config"
+        "/Users/dante/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
