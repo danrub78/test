@@ -36,7 +36,7 @@ steps:
     command: 'test'
     verbosityPack: Diagnostic
     projects: '**/*Test.csproj'
-    arguments: '/p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=./MyCoverage/'
+    #arguments: '/p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=./MyCoverage/'
     publishTestResults: true
 - task: PublishCodeCoverageResults@1
   inputs:
