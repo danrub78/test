@@ -33,6 +33,7 @@ steps:
   displayName: 'dotnet test'
   inputs:
     command: 'test'
+    verbosityPack: Detailed
     projects: '**/*Test.csproj'
     arguments: '/p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=./MyCoverage/'
     publishTestResults: true
