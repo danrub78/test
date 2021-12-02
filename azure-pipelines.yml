@@ -33,7 +33,7 @@ steps:
   displayName: 'dotnet test'
   inputs:
     command: 'test'
-    projects: '**/*.csproj'
+    projects: '**/web-app-test.csproj'
     arguments: '/p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=./MyCoverage/'
     publishTestResults: true
 - task: PublishCodeCoverageResults@1
